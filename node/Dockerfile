@@ -1,7 +1,7 @@
 FROM node:latest
 
 RUN apt-get update && apt-get install -y \
-    vim tmux tree htop
+    vim tmux tree htop libelf1
 
 RUN npm install -g nodemon localtunnel
 RUN useradd -ms /bin/bash edon

@@ -10,4 +10,5 @@ txt6='\[\e[0;36m\]'
 txt7='\[\e[0;37m\]'
 txtrst='\[\e[0m\]'    # Text Reset
 
+export SHELL=/bin/bash
 export PS1="$txt2\u$txt3@$txt2\h $txt4\w 🚀 $txtrst "

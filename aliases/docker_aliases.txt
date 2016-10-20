@@ -1,2 +1,3 @@
 alias dnode="docker run --rm -it -p 5858:5858 -v "'$(pwd)'":/home/edon/project chyld/node bash --login"
+alias dpython="docker run --rm -it -v "'$(pwd)'":/home/edon/project chyld/python bash --login"
 alias djupyter="docker run -d -p 8888:8888 jupyter/all-spark-notebook"

@@ -1,4 +1,4 @@
-FROM node:latest
+FROM python:latest
 
 RUN apt-get update && apt-get install -y \
     vim tmux tree htop libelf1

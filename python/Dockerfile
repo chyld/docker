@@ -4,7 +4,7 @@ RUN apt-get update && apt-get install -y \
     vim tmux tree htop libelf1
 
 RUN pip3 install --upgrade pip
-RUN pip3 install jupyter
+RUN pip3 install jupyter ipdb
 RUN useradd -ms /bin/bash europa
 
 USER europa

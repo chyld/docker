@@ -1,4 +1,4 @@
 alias dnode="docker run --rm -it -p 5858:5858 -v "'$(pwd)'":/home/io/project chyld/node bash --login"
 alias dpython="docker run --rm -it -v "'$(pwd)'":/home/europa/project chyld/python bash --login"
-alias dgcc="docker run --rm -it -v "'$(pwd)'":/home/europa/project chyld/gcc bash --login"
+alias dgcc="docker run --security-opt seccomp:unconfined --rm -it -v "'$(pwd)'":/home/europa/project chyld/gcc bash --login"
 alias djupyter="docker run -d -p 8888:8888 jupyter/all-spark-notebook"
